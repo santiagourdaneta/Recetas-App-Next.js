@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👩‍🍳 Recetas App Next.js
 
-## Getting Started
+## Descripción
+Una aplicación web de recetas moderna y optimizada, diseñada para ser rápida, accesible y fácil de usar en cualquier dispositivo. Este proyecto utiliza **Next.js** para el **Server-Side Rendering (SSR)** y la optimización de SEO, **React** para la interfaz de usuario, y **Tailwind CSS** para un diseño responsivo y elegante. La aplicación se conecta a la API de Spoonacular para obtener datos de recetas.
 
-First, run the development server:
+## Características Principales
+* **Rápida y Optimizada:** Carga instantánea de contenido gracias al SSR de Next.js.
+* **Diseño Adaptativo (Responsive):** La interfaz se ajusta perfectamente a dispositivos móviles y de escritorio.
+* **Accesibilidad (A11y):** Diseñada siguiendo buenas prácticas para ser usable por personas con discapacidades.
+* **Búsqueda Dinámica:** Busca recetas en tiempo real por ingredientes o nombre.
+* **Detalles de Receta:** Visualiza ingredientes, instrucciones y más.
 
+## Tecnologías Utilizadas
+* **Next.js:** Framework de React para SSR y generación de sitios estáticos.
+* **React:** Biblioteca de JavaScript para construir interfaces de usuario.
+* **Tailwind CSS:** Framework CSS utilitario para un diseño rápido y flexible.
+* **API Spoonacular:** API para obtener datos de recetas e información de alimentos.
+* **Jest & React Testing Library:** Para pruebas unitarias.
+
+## Instalación y Uso
+1.  Clona el repositorio:
+    ```bash
+    git clone [https://github.com/santiagourdaneta/Recetas-App-Next.js](https://github.com/santiagourdaneta/Recetas-App-Next.js)
+    cd recetas-app
+    ```
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    ```
+3.  Ejecuta el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+    La aplicación estará disponible en `http://localhost:3000`.
+
+## Pruebas
+Para ejecutar las pruebas unitarias:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm test
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contribuciones
+¡Las contribuciones son bienvenidas! Si quieres mejorar el proyecto, crea un "pull request" o reporta un problema.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Licencia
+Este proyecto está bajo la Licencia MIT.
