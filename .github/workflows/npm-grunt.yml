@@ -1,4 +1,6 @@
 name: NodeJS with Grunt
+permissions:
+  contents: read
 
 on:
   push:
